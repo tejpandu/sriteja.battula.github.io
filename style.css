@@ -1,0 +1,150 @@
+/* delcare 4 variable */
+:root {
+    --main-color: #12372A;
+    --second-color: #436850;
+    --third-color: #ADBC9F;
+    --fourth-color: #FBFADA;
+    --mechTechGreen: #00b259;
+}
+
+/* Center the h1 tag */
+h1 {
+    text-align: center;
+}
+
+/* Change the font to Bakersville */
+body {
+    font-family: 'Bakersville';
+}
+
+/* Remove arrows on number input fields */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Make the website look better */
+
+/* Center subtitle */
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Better connect the text to the input field and make them seem more connected */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Center everything and reset margin and padding */
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Make text boxes slightly bigger */
+input {
+    width: 300px;
+    height: 30px;
+}
+
+/* Make the submit button bigger */
+button{
+    width: 300px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset{
+    width: 300px;
+    height: 40px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset :hover{
+    background-color: #d32f2f;
+}
+/* make the look nicer */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Make the checkbox look better */
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 1.4rem;
+    height: 1.6rem;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transform: scale(0);
+  }
+
+/* make labels bigger and easier to read */
+label {
+    font-size: 1.2rem;
+}
+/* add colored boarder to the each div */
+div .name-div,
+.match-number-div,
+.robot-position-div,
+.team-number-div,
+.starting-position-div,
+.mobility-div,
+.auto-amp-div,
+.auto-speaker-div,
+.auto-missed-div,
+.teleop-amp-div,
+.teleop-speaker-div,
+.far-intake-div,
+.teleop-missed-div,
+.parked-div,
+.onstage-div,
+.harmony-div,
+.trap-div,
+.comments-div,
+.teleop-div,
+.endgame-div,
+.endgame-amp-div,
+.misc-div,
+.buttons-div{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--third-color);
+}
+/* assign colors to aspect of the website as declared eariler */
+body {
+    background-color: antiquewhite
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+input {
+    background-color: var(--fourth-color);;
+}
+/* make the select fields bigger and give them 3rd color */
+select {
+    border: 2px solid #000;
+    width: 300px;
+    height: 30px;
+    background-color: var(--fourth-color);
+}
+/* when hovering over the checkbox make user cursor the hand */
+input[type="checkbox"] {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--main-color);
+    initial-value: False;
+}
